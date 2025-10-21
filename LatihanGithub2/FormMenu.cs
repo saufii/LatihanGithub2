@@ -32,5 +32,10 @@ namespace LatihanGithub2
             f.ShowDialog();
             this.Hide();
         }
+
+        private void formSiswaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
