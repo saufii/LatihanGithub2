@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formSiswaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formJurusanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +60,25 @@
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
             this.menuToolStripMenuItem.Text = "menu ";
             // 
+            // formSiswaToolStripMenuItem
+            // 
+            this.formSiswaToolStripMenuItem.Name = "formSiswaToolStripMenuItem";
+            this.formSiswaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.formSiswaToolStripMenuItem.Text = "form siswa";
+            this.formSiswaToolStripMenuItem.Click += new System.EventHandler(this.formSiswaToolStripMenuItem_Click);
+            // 
+            // formJurusanToolStripMenuItem
+            // 
+            this.formJurusanToolStripMenuItem.Name = "formJurusanToolStripMenuItem";
+            this.formJurusanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.formJurusanToolStripMenuItem.Text = "form jurusan";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenuItem.Text = "exit";
+            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -71,24 +90,6 @@
             this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip2.Name = "contextMenuStrip2";
             this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
-            this.exitToolStripMenuItem.Text = "exit";
-            // 
-            // formSiswaToolStripMenuItem
-            // 
-            this.formSiswaToolStripMenuItem.Name = "formSiswaToolStripMenuItem";
-            this.formSiswaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.formSiswaToolStripMenuItem.Text = "form siswa";
-            // 
-            // formJurusanToolStripMenuItem
-            // 
-            this.formJurusanToolStripMenuItem.Name = "formJurusanToolStripMenuItem";
-            this.formJurusanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.formJurusanToolStripMenuItem.Text = "form jurusan";
             // 
             // FormMenu
             // 

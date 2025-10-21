@@ -16,5 +16,21 @@ namespace LatihanGithub2
         {
             InitializeComponent();
         }
+
+        private void SiswaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("loading...");
+            FormSiswa f = new FormSiswa();
+            f.ShowDialog();
+            this.Hide();
+        }
+
+        private void JurusanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("loading...");
+            FormJurusan f = new FormJurusan();
+            f.ShowDialog();
+            this.Hide();
+        }
     }
 }
